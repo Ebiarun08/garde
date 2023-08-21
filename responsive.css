@@ -1,0 +1,55 @@
+@media(max-width:576px){
+    .navlinks{
+        font-size: 12px;
+    }
+    .cardsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+    .gardencard{
+       display: flex;
+       flex-direction: column;
+       padding: 10px 10px;
+    
+    }
+    .conbody{
+        text-align: center;
+    }
+    .conbody p {
+        text-align: center;
+        padding: 20px 15px;
+    }
+    .tipscontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .tipscontent {
+        padding-top: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footercard{
+        border: none;
+    }
+    .footercard1{
+        padding-bottom: 15px;
+    }
+    .logo img{
+        /* display: flex; */
+        /* align-items: center; */
+        /* padding: 10px 20px; */
+        margin: none;
+        width: 300px;
+        /* padding: 10px 30px ; */
+    
+    }
+    .credit{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,244 @@
+*{  
+    margin: 0 auto ;
+    padding: 0 auto;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    
+}
+.frame{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #356618;
+}
+.navbar{
+    width: 95%;
+    height: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 100%;
+    height: 15vh;
+    background-color: #ffff;
+    padding: 0;
+}
+.logo img{
+    display:flex ;
+    margin: 0 auto;
+    /* padding: 10px 480px; */
+    /* width: 400px; */
+
+}
+.navlinks{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4b4b4b;
+    padding: 10px;
+    
+}
+.navlinks li{
+    list-style: none;
+    padding: 12px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: #f0f2c9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks li:hover{
+     border: 1px solid #f0f2c9;
+     background-color: #f0f2c9;
+     color: #66a143;
+}
+.navlinks li a:hover{
+    color: #66a143;
+}
+.herosection{
+    width: 95%;
+}
+.body{
+    width: 100%;
+    background-image: url(./images/gardening1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 0 auto;
+    padding: 300px 0px 0px;
+}
+.body h1 {
+    background-color: #4b4b4b6b;
+    color: #e0e492;
+    padding: 10px;
+}
+.body p{
+    background-color: #4b4b4b6b;
+    color: #ffff;
+    padding: 10px;
+}
+.cardsection{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-around;
+
+}
+.card{
+    display: flex;
+
+}
+.cardheader img{
+    border: 2px solid white;
+}
+.cardbody p{
+    padding: 8px 10px 0px;
+    color: #ffff;
+}
+.cardbody h2{
+    color: #e0e492;
+    padding: 5px 10px;
+}
+.gardens{
+    width:95% ;
+    background-color: #ffff;
+    align-items: center;
+    padding: 15px 15px ;
+    
+}
+.heading{
+    background: #dce9d4;
+    border-bottom: 2px solid #b3cca4;
+    color: #836145;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    height: 37px;
+    line-height: 37px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1rem;
+    width: 20%;
+    
+
+}
+.gardencard{
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.header{
+    aspect-ratio:4/4 ;
+    object-fit: cover;
+    padding-top: 10px;
+}
+.conbody{
+    text-align:left ;
+}
+.conbody p{
+     text-align: left;
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 20px;
+     overflow: auto;
+     color: #4B4B4B;
+    
+}
+.conbody h2{
+    font-size: 16px;
+    color: #836145;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tipscontainer{
+    /* width: 100%; */
+    display: flex;
+    padding: 25px;
+    border-top: 1px solid gray;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.tipscontent{
+    /* width: 60%; */
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.tipscontent h2{
+    background: #dce9d4;
+    border-bottom: 2px solid #b3cca4;
+    color: #836145;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    height: 37px;
+    line-height: 37px;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.tipscontent li{
+    list-style-type: decimal;
+    list-style-position: initial;
+    line-height: 18px;
+    font-size: 14px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b4b4b;
+}
+.footer{
+    background-color: #b3cca4;
+    display: flex;
+    width: 95%;
+    align-items: center;
+}
+.footercard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1rem;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+.footercard li{
+    list-style: none;
+    line-height: 15px;
+}
+.footercard1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1rem;
+    padding-top: 20px;
+    border:none;
+    padding-bottom: 10px;
+}
+.footercard1 a{
+    text-decoration: none;
+    line-height: 0px;
+    color: #4B4B4B;
+    
+}
+.footercard1 i{
+    font-size: 15px;
+    color: #356618;
+    padding: 0 5px;
+
+
+    
+}
+.credit{
+    color: whitesmoke;
+    padding: 10px;
+}
+    
